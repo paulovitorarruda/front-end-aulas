@@ -1,20 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 /*
-Utilizando apenas o h1, todas as tags de h1 ficaram iguais 
-h1{
+No css, a sintaxe (*) pega todos os elementos
+*/
+
+
+a{
+	text-decoration: none;
+}
+/*
+O (text-decoration: none;)
+é usado para remover o sublinhado dos links
+*/
+
+
+.menu{
+	width: 900px;
+	margin: 30px auto;
+	text-align: center;
+}
+/*
+A propriedade (width) define a largura de um elemento.
+
+As propriedades CSS (margin) são usadas para criar espaço
+ao redor dos elementos, fora de quaisquer bordas definidas.
+
+A propriedade (text-align) é usada para definir o alinhamento
+horizontal de um texto.
+*/
+
+
+.menu a{
 	color: red;
+	padding-right: 8px;
+	border-right: 3px solid red;
+	font-size: 20px;
+	margin:0 10px;
 }
-*/
-
 /*
-A sintaxe para id é: (#)
-*/
-#div1{
-	color: blue;
-}
+A propriedade (color) define as cores dos elementos
 
-/*
-A sintaxe para class é: (.)
+A propriedade (padding-right) define o preenchimento
+correto (espaço) de um elemento.
+
+A (border-right) é uma propriedade abreviada para
+(na seguinte ordem):
+largura da borda direita
+estilo-de-borda-direita (obrigatório)
+cor da borda direita
+
+A propriedade (font-size) define o tamanho do texto.
 */
-.div2{
-	color: brown;
-}
