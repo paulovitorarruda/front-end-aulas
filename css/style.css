@@ -1,0 +1,20 @@
+/*
+Utilizando apenas o h1, todas as tags de h1 ficaram iguais 
+h1{
+	color: red;
+}
+*/
+
+/*
+A sintaxe para id é: (#)
+*/
+#div1{
+	color: blue;
+}
+
+/*
+A sintaxe para class é: (.)
+*/
+.div2{
+	color: brown;
+}
