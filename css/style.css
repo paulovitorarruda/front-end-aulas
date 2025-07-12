@@ -2,54 +2,67 @@
 	margin: 0;
 	padding: 0;
 }
+
 /*
-No css, a sintaxe (*) pega todos os elementos
+Estilo para o conteúdo do nosso site
 */
 
-
-a{
-	text-decoration: none;
-}
-/*
-O (text-decoration: none;)
-é usado para remover o sublinhado dos links
-*/
-
-
-.menu{
-	width: 900px;
-	margin: 30px auto;
+/*manipulando todo o conteúdo do site*/
+.artigo {
+	width: 1280px;
+	margin: 40px auto;
+	background-color: rgb(220, 117, 255);
 	text-align: center;
 }
 /*
-A propriedade (width) define a largura de um elemento.
+width: A propriedade width define a largura de um elemento.
 
-As propriedades CSS (margin) são usadas para criar espaço
+margin: As propriedades margin são usadas para criar espaço
 ao redor dos elementos, fora de quaisquer bordas definidas.
 
-A propriedade (text-align) é usada para definir o alinhamento
-horizontal de um texto.
+background-color: Defina a cor de fundo de uma página.
+
+text-align: A propriedade text-align especifica o 
+alinhamento horizontal do texto em um elemento.
 */
 
 
-.menu a{
-	color: red;
-	padding-right: 8px;
-	border-right: 3px solid red;
-	font-size: 20px;
-	margin:0 10px;
+/*manipulando apenas o h1(título do site)*/
+.artigo h1{
+	color: rgb(78, 0, 105);
+	font-size: 23px;
+	font-family: tahoma;
+	font-style: normal;
+	font-weight: normal;
 }
 /*
-A propriedade (color) define as cores dos elementos
+color: defini a cor do texto.
 
-A propriedade (padding-right) define o preenchimento
-correto (espaço) de um elemento.
+font-size: A propriedade font-size define o tamanho do texto.
 
-A (border-right) é uma propriedade abreviada para
-(na seguinte ordem):
-largura da borda direita
-estilo-de-borda-direita (obrigatório)
-cor da borda direita
+font-family: usamos a propriedade font-family para
+especificar a fonte de um texto.
 
-A propriedade (font-size) define o tamanho do texto.
+font-style: A propriedade font-style é usada
+principalmente para especificar texto em itálico 
+
+font-weight: A propriedade font-weight especifica
+o peso de uma fonte
+*/
+
+
+/*manipulando apenas o p(parágrafo do site)*/
+.artigo p{
+	color: #5c0050;
+	font-size: 20px;
+	font-family: tahoma;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top: 12px;
+}
+/* 
+line-height: A propriedade line-height especifica a altura de uma linha.
+
+margin-top: A propriedade margin-top define a margem superior de um elemento.
 */
