@@ -9,23 +9,18 @@ Estilo para o conteúdo do nosso site
 
 /*manipulando todo o conteúdo do site*/
 .artigo {
-	width: 1280px;
-	margin: 40px auto;
+	width: 80%;
+	max-width: 500px;
+	height: 40%;
+    max-height:500px;
 	background-color: rgb(220, 117, 255);
 	text-align: center;
 }
 /*
-width: A propriedade width define a largura de um elemento.
-
-margin: As propriedades margin são usadas para criar espaço
-ao redor dos elementos, fora de quaisquer bordas definidas.
-
-background-color: Defina a cor de fundo de uma página.
-
-text-align: A propriedade text-align especifica o 
-alinhamento horizontal do texto em um elemento.
+max-width: A propriedade max-width define a largura máxima de um elemento.
+height: A propriedade height define a altura de um elemento.
+max-height: A propriedade max-height define a altura máxima de um elemento.
 */
-
 
 /*manipulando apenas o h1(título do site)*/
 .artigo h1{
@@ -35,21 +30,6 @@ alinhamento horizontal do texto em um elemento.
 	font-style: normal;
 	font-weight: normal;
 }
-/*
-color: defini a cor do texto.
-
-font-size: A propriedade font-size define o tamanho do texto.
-
-font-family: usamos a propriedade font-family para
-especificar a fonte de um texto.
-
-font-style: A propriedade font-style é usada
-principalmente para especificar texto em itálico 
-
-font-weight: A propriedade font-weight especifica
-o peso de uma fonte
-*/
-
 
 /*manipulando apenas o p(parágrafo do site)*/
 .artigo p{
@@ -61,8 +41,3 @@ o peso de uma fonte
 	line-height: 40px;
 	margin-top: 12px;
 }
-/* 
-line-height: A propriedade line-height especifica a altura de uma linha.
-
-margin-top: A propriedade margin-top define a margem superior de um elemento.
-*/
