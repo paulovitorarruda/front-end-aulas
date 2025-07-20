@@ -5,52 +5,30 @@
 
 /*
 *
+*
 Estilo para o conteúdo do nosso site
+*
 *
 */
 
 html,body{
-	height: 100%;
+	height: 100%; 
 }
-/*
-define a altura de todo o conteúdo em 100% da janela
-*/
 
 
-.lista, .lista2{
+ol{
 	list-style-position: inside;
-	list-style-type: disc;
-	margin-left: 20px;
 }
 /*
-list-style-position: A propriedade list-style-position especifica
-a posição dos marcadores de itens da lista (marcadores).
-
-list-style-type: A propriedade (list-style-type) especifica
-o tipo de marcador de item de lista.
-
-margin-left: A propriedade margin-left define a margem esquerda de um elemento.
+list-style-position: inside; significa que os
+marcadores estarão dentro do item da lista.
 */
 
 
-.lista .item3, .lista2 .item3{
-	font-weight: bold;
+ol > li{
+	color: red;
 }
 /*
-font-weight: A propriedade font-weight define a espessura dos
-caracteres finos no texto que devem ser exibidos.
-*/
-
-
-.lista li, .lista2 li{
-	font-size: 18px;
-	color: #4b4b4b;
-	margin-top: 10px;
-}
-/*
-font-size: A font-size propriedade define o tamanho do texto.
-
-color: define as cores do texto
-
-margin-top: A margin-top propriedade define a margem superior de um elemento.
+color: red; significa que as cores dos textos
+estarão em vermelho
 */
