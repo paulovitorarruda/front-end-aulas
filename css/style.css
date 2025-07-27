@@ -15,17 +15,25 @@ html,body{
 	height: 100%; 
 }
 
-
-.tipo1{
-	color: rgb(100,100,100);
+.header{
+	width: 100%;
+	min-width: 1280px;
+	height: 200px;
+	background: gray;	
 }
-/*color: cor do texto*/
+/*
+width: define a largura
+min-width: define a largura mínima
+height: define a altura
+background: define a cor de fundo
+*/
 
-.link_{
-	font-size: 30px;
+.article{
+	margin: 0 auto;
+	width: 1280px;
+	height: 600px;
+	background: red;
 }
-/*font-size: tamanho da fonte do texto*/
-
-.tipo2{
-	font-size: 40px;
-}
+/*
+margin: define a margem
+*/
