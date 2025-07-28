@@ -23,8 +23,7 @@ html,body{
 }
 
 .artigo{
-	box-sizing: border-box;
-	border: 3px dotted rgb(255,0,0);
+	outline: 50px solid blue;
 	vertical-align: top;
 	margin-top: 30px;
 	margin-right: -4px;
@@ -32,9 +31,11 @@ html,body{
 	width: 640px;	
 }
 /*
-box-sizing: border-box;um elemento, o preenchimento
-e a borda serão incluídos na largura e na altura
-
-border: As propriedades de borda CSS permitem que você
-especifique o estilo, a largura e a cor da borda de um elemento.
+outline: O contorno é diferente das bordas !
+Ao contrário da borda, o contorno é desenhado
+fora da borda do elemento e pode se sobrepor
+a outros conteúdos. Além disso, o contorno
+NÃO faz parte das dimensões do elemento;
+a largura e a altura totais do elemento
+não são afetadas pela largura do contorno.
 */
