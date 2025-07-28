@@ -15,27 +15,35 @@ html,body{
 	height: 100%; 
 }
 
-.center{
-	box-sizing: content-box;
-	width: 1280px;
-	margin: 0 auto;
-	background-color: gray;
-}
-
-.artigo{
-	outline: 50px solid blue;
-	vertical-align: top;
-	margin-top: 30px;
-	margin-right: -4px;
-	display: inline-block;
-	width: 640px;	
+.clear{
+	clear: both;
 }
 /*
-outline: O contorno é diferente das bordas !
-Ao contrário da borda, o contorno é desenhado
-fora da borda do elemento e pode se sobrepor
-a outros conteúdos. Além disso, o contorno
-NÃO faz parte das dimensões do elemento;
-a largura e a altura totais do elemento
-não são afetadas pela largura do contorno.
+clear: both; O elemento é empurrado para
+baixo dos elementos flutuantes esquerdo e direito
+*/
+
+.pai{
+	width: 1280px;
+	padding: 20px 0;
+	margin: 20px auto;
+	background: blue;
+}
+
+.child{
+	box-sizing: border-box;
+	width: 640px;
+	height: 300px;
+	background: red;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	padding: 50px 0;
+	color: white;
+	border: 1px solid black;
+}
+/*
+float: propriedade é usada para posicionar e
+formatar conteúdo, por exemplo, deixar uma
+imagem flutuar à esquerda do texto em um contêiner.
 */
