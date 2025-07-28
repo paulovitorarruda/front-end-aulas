@@ -15,25 +15,29 @@ html,body{
 	height: 100%; 
 }
 
-.header{
-	width: 100%;
-	min-width: 1280px;
-	height: 200px;
-	background: gray;	
+.center{
+	box-sizing: content-box;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: gray;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 /*
-width: define a largura
-min-width: define a largura mínima
-height: define a altura
-background: define a cor de fundo
+box-sizing: define como a largura e a altura de um elemento
+são calculadas: devem incluir preenchimento e bordas ou não.
+padding-left: define o preenchimento esquerdo de um elemento.
+padding-right: define o preenchimento direito de um elemento.
+padding-top: define o preenchimento superior de um elemento.
+padding-bottom: define o preenchimento inferior de um elemento.
 */
 
-.article{
-	margin: 0 auto;
-	width: 1280px;
-	height: 600px;
-	background: red;
+.artigo{
+	width: 100%;
+	margin-bottom: 40px;
 }
 /*
-margin: define a margem
+margin-bottom: define a margem inferior de um elemento.
 */
