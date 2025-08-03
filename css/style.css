@@ -15,38 +15,23 @@ html,body{
 	height: 100%; 
 }
 
-.box{
+.box,.box2{
 	width: 300px;
-	height: 200px;
 	margin: 0 auto;
 	background: gray;
-	/*overflow: hidden;
-	overflow: auto;
-	overflow: scroll;
-	overflow: visible;
-	overflow-x: auto;
-	overflow-x: hidden;
-	overflow-y: auto;
-	overflow-y: hidden;*/
+	/*display: none;*/
 }
 /*
-overflow: especifica se o conteúdo deve ser recortado
-ou barras de rolagem adicionadas quando o conteúdo de
-um elemento é muito grande para caber na área especificada.
-
-visible: Padrão. O estouro não é recortado. O conteúdo é renderizado fora da caixa do elemento.
-
-hidden: O estouro é recortado e o restante do conteúdo fica invisível
-
-scroll: O estouro é recortado e uma barra de rolagem é adicionada para ver o restante do conteúdo
-
-auto: Semelhante a scroll, mas adiciona barras de rolagem somente quando necessário
-
-overflow-x: especifica o que fazer com as bordas esquerda/direita do conteúdo.
-
-overflow-y: especifica o que fazer com as bordas superior/inferior do conteúdo.
+display: none; O elemento é completamente removido
 */
 
-.box p{
-	width: 500px;
+
+.box p,.box2 p{
+	width: 100%;
+}
+
+.box2{
+	background-color: red;
+	margin-top: 20px;
+	display: block;
 }
