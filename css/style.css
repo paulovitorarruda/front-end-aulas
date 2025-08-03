@@ -15,35 +15,38 @@ html,body{
 	height: 100%; 
 }
 
-.clear{
-	clear: both;
+.box{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	background: gray;
+	/*overflow: hidden;
+	overflow: auto;
+	overflow: scroll;
+	overflow: visible;
+	overflow-x: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+	overflow-y: hidden;*/
 }
 /*
-clear: both; O elemento é empurrado para
-baixo dos elementos flutuantes esquerdo e direito
+overflow: especifica se o conteúdo deve ser recortado
+ou barras de rolagem adicionadas quando o conteúdo de
+um elemento é muito grande para caber na área especificada.
+
+visible: Padrão. O estouro não é recortado. O conteúdo é renderizado fora da caixa do elemento.
+
+hidden: O estouro é recortado e o restante do conteúdo fica invisível
+
+scroll: O estouro é recortado e uma barra de rolagem é adicionada para ver o restante do conteúdo
+
+auto: Semelhante a scroll, mas adiciona barras de rolagem somente quando necessário
+
+overflow-x: especifica o que fazer com as bordas esquerda/direita do conteúdo.
+
+overflow-y: especifica o que fazer com as bordas superior/inferior do conteúdo.
 */
 
-.pai{
-	width: 1280px;
-	padding: 20px 0;
-	margin: 20px auto;
-	background: blue;
+.box p{
+	width: 500px;
 }
-
-.child{
-	box-sizing: border-box;
-	width: 640px;
-	height: 300px;
-	background: red;
-	float: left;
-	text-align: center;
-	font-size: 40px;
-	padding: 50px 0;
-	color: white;
-	border: 1px solid black;
-}
-/*
-float: propriedade é usada para posicionar e
-formatar conteúdo, por exemplo, deixar uma
-imagem flutuar à esquerda do texto em um contêiner.
-*/
