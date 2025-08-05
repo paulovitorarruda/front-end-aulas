@@ -15,26 +15,69 @@ html,body{
 	height: 100%; 
 }
 
-.box{
-	width: 40%;
-	/* height por padrão é sempre automático */
-	height: 300px;
-	color: gray;
+.text[type=text]{
+	background-color: green;
 }
 
-.box p{
-	color: initial ; /* ou ineherit */
-	background-color: inherit; /* ou initital */
+input[type=submit]{
+	background-color: blue;
 }
+
 /*
-initial: palavra-chave é usada para definir uma propriedade CSS para seu valor padrão.
-inherit: palavra-chave especifica que uma propriedade deve herdar seu valor de seu elemento pai.
+
+TEM QUE SER IGUAL!
+
+a[href="http://www.google.com"]{
+	background-color: yellow;
+}
+[href="http://www.google.com"]{
+	background-color: red;
+}
 */
 
 /*
-@media screen and (max-width: 480px){
-	.box{
-		height: auto;
-	}
+
+PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO.
+
+a[attr~="google"]{
+	background-color: blue;
 }
+
+*/
+
+/*
+
+ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
+
+a[attr*="google"]{
+	background-color: blue;
+}
+
+*/
+
+/*
+QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO.
+
+a[attr|="google"]{
+	background-color: yellow;
+}
+*/
+
+/*
+QUANDO COMEÇAMOS COM A PALAVRA.
+
+a[attr^="goo"]{
+	background-color: red;
+}
+
+*/
+
+
+/*
+QUANDO TERMINAMOS COM A PALAVRA.
+
+a[attr$="google"]{
+	background-color: yellow;
+}
+
 */
