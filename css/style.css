@@ -15,69 +15,66 @@ html,body{
 	height: 100%; 
 }
 
-.text[type=text]{
-	background-color: green;
-}
-
-input[type=submit]{
-	background-color: blue;
-}
-
 /*
-
-TEM QUE SER IGUAL!
-
-a[href="http://www.google.com"]{
-	background-color: yellow;
+.table1{
+	width: 900px;
+	border-collapse: collapse;
+	margin: 0 auto;
 }
-[href="http://www.google.com"]{
-	background-color: red;
+
+table tr td{
+	background-color: rgb(200,200,200);
+	height: 300px;
+	vertical-align: bottom;
+	border: 3px solid black;
 }
 */
 
+.menu-fixed{
 /*
+A positionpropriedade especifica o tipo de método de posicionamento usado para um elemento.
 
-PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO.
+Existem cinco valores de posição diferentes:
 
-a[attr~="google"]{
-	background-color: blue;
+static: não é posicionado de nenhuma maneira especial;
+ele é sempre posicionado de acordo com o fluxo normal da página
+
+relative: é posicionado em relação à sua posição normal.
+Definir as propriedades superior, direita, inferior e esquerda
+de um elemento posicionado relativamente fará com que ele seja
+ajustado para longe de sua posição normal. Outros conteúdos não
+serão ajustados para caber em qualquer espaço deixado pelo elemento.
+
+fixed: é posicionado em relação à janela de visualização,
+o que significa que ele sempre permanece no mesmo lugar,
+mesmo que a página seja rolada. As propriedades top, right,
+bottom e left são usadas para posicionar o elemento.
+
+absolute: é posicionado em relação ao ancestral mais próximo
+(em vez de ser posicionado em relação à janela de visualização, como fixo).
+Entretanto, se um elemento posicionado de forma absoluta não tiver ancestrais
+posicionados, ele usa o corpo do documento e se move junto com a rolagem da página.
+
+sticky: é posicionado com base na posição de rolagem do usuário.
+*/
+	position: static; /*fixed,absolute,relative,sticky*/;
+	/*
+	left: 30px;
+	top: 70px;
+	bottom:0;
+	right: 0;
+	*/
+	width: 300px;
+	height: 200px;
+	background: #069;
 }
 
-*/
-
-/*
-
-ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
-
-a[attr*="google"]{
-	background-color: blue;
+.box{
+	width: 400px;
+	height: 500px;
+	background: green;
 }
 
-*/
-
-/*
-QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO.
-
-a[attr|="google"]{
-	background-color: yellow;
+.box p{
+	width: 400px;
 }
-*/
-
-/*
-QUANDO COMEÇAMOS COM A PALAVRA.
-
-a[attr^="goo"]{
-	background-color: red;
-}
-
-*/
-
-
-/*
-QUANDO TERMINAMOS COM A PALAVRA.
-
-a[attr$="google"]{
-	background-color: yellow;
-}
-
-*/
