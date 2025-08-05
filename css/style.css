@@ -15,23 +15,26 @@ html,body{
 	height: 100%; 
 }
 
-.box,.box2{
-	width: 300px;
-	margin: 0 auto;
-	background: gray;
-	/*display: none;*/
+.box{
+	width: 40%;
+	/* height por padrão é sempre automático */
+	height: 300px;
+	color: gray;
+}
+
+.box p{
+	color: initial ; /* ou ineherit */
+	background-color: inherit; /* ou initital */
 }
 /*
-display: none; O elemento é completamente removido
+initial: palavra-chave é usada para definir uma propriedade CSS para seu valor padrão.
+inherit: palavra-chave especifica que uma propriedade deve herdar seu valor de seu elemento pai.
 */
 
-
-.box p,.box2 p{
-	width: 100%;
+/*
+@media screen and (max-width: 480px){
+	.box{
+		height: auto;
+	}
 }
-
-.box2{
-	background-color: red;
-	margin-top: 20px;
-	display: block;
-}
+*/
