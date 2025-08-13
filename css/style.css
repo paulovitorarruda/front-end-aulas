@@ -15,66 +15,23 @@ html,body{
 	height: 100%; 
 }
 
-/*
-.table1{
-	width: 900px;
-	border-collapse: collapse;
+.bg{
+	width: 50%;
+	height: 90%;
 	margin: 0 auto;
-}
 
-table tr td{
-	background-color: rgb(200,200,200);
-	height: 300px;
-	vertical-align: bottom;
-	border: 3px solid black;
-}
-*/
+	/*Backgrounds*/
 
-.menu-fixed{
-/*
-A positionpropriedade especifica o tipo de método de posicionamento usado para um elemento.
+	background-color: red;
+	background-image: url('../imagens/css_bg.jpg');
 
-Existem cinco valores de posição diferentes:
+	/***/
+	/* As propriedades abaixo sempre começam do eixo X(horizontal) seguido pelo eixo Y(vertical)*/
+	/* Caso apenas um valor seja utilizado será usado para ambos*/
+	/**/
 
-static: não é posicionado de nenhuma maneira especial;
-ele é sempre posicionado de acordo com o fluxo normal da página
+	background-position: right bottom; /*left,right,center / center,top,bottom */;
+	background-size: contain /* cover,auto,px ou % */;
+	background-repeat:no-repeat /*no-repeat,repeat-x,repeat-y*/;
 
-relative: é posicionado em relação à sua posição normal.
-Definir as propriedades superior, direita, inferior e esquerda
-de um elemento posicionado relativamente fará com que ele seja
-ajustado para longe de sua posição normal. Outros conteúdos não
-serão ajustados para caber em qualquer espaço deixado pelo elemento.
-
-fixed: é posicionado em relação à janela de visualização,
-o que significa que ele sempre permanece no mesmo lugar,
-mesmo que a página seja rolada. As propriedades top, right,
-bottom e left são usadas para posicionar o elemento.
-
-absolute: é posicionado em relação ao ancestral mais próximo
-(em vez de ser posicionado em relação à janela de visualização, como fixo).
-Entretanto, se um elemento posicionado de forma absoluta não tiver ancestrais
-posicionados, ele usa o corpo do documento e se move junto com a rolagem da página.
-
-sticky: é posicionado com base na posição de rolagem do usuário.
-*/
-	position: static; /*fixed,absolute,relative,sticky*/;
-	/*
-	left: 30px;
-	top: 70px;
-	bottom:0;
-	right: 0;
-	*/
-	width: 300px;
-	height: 200px;
-	background: #069;
-}
-
-.box{
-	width: 400px;
-	height: 500px;
-	background: green;
-}
-
-.box p{
-	width: 400px;
 }
