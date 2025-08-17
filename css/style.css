@@ -15,23 +15,53 @@ html,body{
 	height: 100%; 
 }
 
+
 .bg{
-	width: 50%;
-	height: 90%;
-	margin: 0 auto;
-
-	/*Backgrounds*/
-
+	/*
+	width: 100%;
+	margin:0 auto;
+	height: 30vw;
+	background-image:url('../imagens/sunset.jpg');
+	background-attachment: fixed;
 	background-color: red;
-	background-image: url('../imagens/css_bg.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	*/
+}
+/*
+height: 30vw; Em relação a 1% da largura da janela de visualização
+background-image: Defina uma imagem de fundo para o elemento
+background-attachment: propriedade especifica se a imagem de fundo deve rolar ou ser fixa
+background-repeat: propriedade define se/como uma imagem de fundo será repetida.
+background-size: propriedade especifica o tamanho das imagens de fundo.
+background-position: propriedade define a posição inicial de uma imagem de fundo.
+*/
 
-	/***/
-	/* As propriedades abaixo sempre começam do eixo X(horizontal) seguido pelo eixo Y(vertical)*/
-	/* Caso apenas um valor seja utilizado será usado para ambos*/
-	/**/
 
-	background-position: right bottom; /*left,right,center / center,top,bottom */;
-	background-size: contain /* cover,auto,px ou % */;
-	background-repeat:no-repeat /*no-repeat,repeat-x,repeat-y*/;
+.box{
+	width: 100%;
+	margin:80px auto;
+	text-align: center;
+	background-color: rgb(200,200,200);
+}
 
+.item{
+	width: 100%;
+	display: inline-block;
+}
+
+.item img{
+	width: 16%;
+}
+
+.item p{
+	background-color: purple;
+	display: inline-block;
+	text-align: right;
+}
+
+
+.last{
+	margin-right: 0;
 }
