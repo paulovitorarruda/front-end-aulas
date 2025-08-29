@@ -15,81 +15,79 @@ html,body{
 	height: 100%; 
 }
 
-
-.teste,.teste1,.teste2{
-	width: 300px;
-	margin-top:30px;
-	margin-left: 30px;
-	display: inline-block;
-	height: 30px;
-	/*
-	background-color: #ccc;
-	*/
+ul{
+	list-style-position: inside;
 }
 
-.teste1{
-	background-color: rgb(98,98,98);
+
+.box{
+	width: 100%;
 }
 
-.teste2{
-	background-color: rgb(50,50,50);
+.box > div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border:1px solid black;
 }
-
-/* Hover serve para quando estamos com o mouse em cima do elemento
-*/
-/*
-.teste:hover{
-	height: 900px;
-	background-color:blue;
-}
-
-.teste:hover,.teste1,.teste2{
-	vertical-align: top;
-}
-
-*/
-
-/* Active serve para quando estamos com o mouse pressionado em cima do
-nosso elemento
-*/
 
 /*
-.teste:active{
-	background-color: black;
-}
-*/
-
-/*
-
-Focus serve para quando clicamos e focamos o nosso elemento do formulário.
-
-textarea,input
-
-.teste:focus{
+.p::after{
+	content:' Paulo';
 	background-color: red;
 }
 
-.textarea1{
-	display: block;
-	width: 600px;
-	height: 400px;
+.p::before{
+	content: 'Paulo ';
+}
+*/
+
+/*
+p:empty{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+*/
+
+/*
+Negação! Aplique o estilo para todas as divs que NÃO tenha a classe ONE.
+.box div:not(.one){
+	background-color: gold;
+}
+*/
+
+/*
+.box div:last-child p{
+	color: rgba(255,255,255,1);
 }
 
 */
 
+/*
+Pegamos o último elemento do mesmo tipo
+.box div:last-of-type,.box p:last-of-type{
+	background-color: green;
+}
+
+*/
 
 
 /*
-.link1:link{
-	color: orange;
+
+/*De acordo com o tipo do elemento*/
+/*
+ul li:nth-of-type(2){
+	color:red;
 }
 */
 
-a.link1{
-  color:red;
+/*
+De acordo com os filhos
+ul span:nth-child(6){
+	color:red;
 }
 
-a.link1:visited{
-	color: green;
-}
-
+*/
