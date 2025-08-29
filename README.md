@@ -1,35 +1,43 @@
 # 🖥️ Praticando Front-End
 
-Este repositório reúne **exercícios e projetos práticos** desenvolvidos durante o curso de Front-End, utilizando **HTML5, CSS3 e JavaScript**.  
-O objetivo é treinar e consolidar os principais conceitos do desenvolvimento web.
+![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow) 
+![License](https://img.shields.io/badge/licença-MIT-green) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+Repositório com **exercícios e projetos práticos** de Front-End, focando em **HTML5, CSS3 e JavaScript**.  
+Objetivo: **praticar e consolidar conceitos de desenvolvimento web.**
 
 ---
 
-## 🚀 Demonstrações
-Você pode visualizar os projetos online através do **GitHub Pages** (em breve).  
-> 🔗 [Acesse aqui](#) (link será adicionado quando o Pages estiver configurado).
+## 🚀 Demo Online
+Veja os projetos em funcionamento no **GitHub Pages**:  
+> 🔗 [Acesse aqui](https://paulovitorarruda.github.io/PraticandoFront-End/)
 
 ---
 
-## 📂 Estrutura do Repositório
-- `/Projeto01` → Estrutura básica em HTML  
-- `/Projeto02` → Estilos com CSS  
-- `/Projeto03` → Layout responsivo  
-- `/assets` → Imagens e outros arquivos de apoio  
-
-*(ajuste conforme sua organização de pastas)*
+## 🛠️ Tecnologias
+- ✅ HTML5  
+- ✅ CSS3  
+- ✅ JavaScript (básico)  
+- ✅ Git & GitHub
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5**
-- **CSS3**
-- **JavaScript (básico)**
-- **Git & GitHub**
+## 🤝 Contribuição
+Sugestões e melhorias são bem-vindas!  
+- Abra uma **issue** para reportar bugs ou sugerir ideias.  
+- Faça um **pull request** para contribuir diretamente.
 
 ---
 
-## ▶️ Como Executar Localmente
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/paulovitorarruda/PraticandoFront-End.git
+## 👨‍💻 Autor
+Paulo Vitor Pereira de Arruda  
+GitHub: [@paulovitorarruda](https://github.com/paulovitorarruda)  
+LinkedIn: (https://www.linkedin.com/in/paulo-vitor-arruda-8186b5380/)
+
+---
+
+## 📜 Licença
+Projeto sob a **Licença MIT** – veja o arquivo LICENSE para mais detalhes.
