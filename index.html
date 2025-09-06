@@ -6,14 +6,55 @@
         <title>Título do meu site</title>
     </head>
     <body>
-        <div class="parent">
-            <p>Hello World!</p>
-            <div><div class="item"></div></div>
-            <div><div class="item"></div></div>
-            <div><div class="item"></div></div>
-            <div><div class="item"></div></div>
-            <div><div class="item"></div></div>
-            <p>Hello World!</p>
-        </div><!--parent-->
+
+        <form>
+            <fieldset>
+                <legend>Meu grupo do formulário</legend>
+                <div><input type="text" name="name" placeholder="Digite o seu nome" /></div>
+                <div><input type="text" name="name" placeholder="Digite o seu e-mail" /></div>
+                <div>
+                    <select name="lista">
+                        <option disabled selected>Qual sua idade?</option>
+                        <option>+18</option>
+                        <option>+25</option>
+                        <option>+40</option>
+                    </select>
+                </div>
+
+                <h2>Qual sua cidade?</h2>
+                <div class="input">
+                <div>
+                    <input type="radio" name="cidade" value="" /><span>Frei-Miguelinho</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="" /><span>Vertente do Lério</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="" /><span>Surubim</span>
+                </div>
+                </div>
+
+                <h2>O que você gosta de comer?</h2>
+                <div class="input">
+                <div>
+                    <input type="checkbox" name="cidade" value="" /><span>Frei-Miguelinho</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="cidade" value="" /><span>Vertente do Lério</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="cidade" value="" /><span>Surubim</span>
+                </div>
+                </div>
+
+                    <div>
+                        <textarea placeholder="Possui alguma observação?"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="acao" value="Enviar!">
+                    </div>
+            </fieldset>
+        </form>
+
     </body>
 </html>
