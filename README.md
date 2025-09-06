@@ -35,7 +35,7 @@ Sugestões e melhorias são bem-vindas!
 ## 👨‍💻 Autor
 Paulo Vitor Pereira de Arruda  
 GitHub: [@paulovitorarruda](https://github.com/paulovitorarruda)  
-LinkedIn: (https://www.linkedin.com/in/paulo-vitor-arruda-8186b5380/)
+LinkedIn: (https://www.linkedin.com/in/paulovitorarruda/)
 
 ---
 
