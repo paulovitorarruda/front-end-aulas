@@ -3,68 +3,35 @@
  padding:0;
 }
 
+@font-face{
+	font-family: "Open Sans";
+	src:url('../fonts/OpenSans-Light.ttf');
+}
 
 html,body{
   height:100%;
+  font-family: "Open Sans";
 }
 
 /*
-input[type=file]{
-	display: none;
-}
-
-label{
-	display:block;
-	margin:20px auto;
-	cursor: pointer;
-	font-size: 17px;
-	width: 220px;
-	height: 40px;
-	background-color:#ccc;
-	color: white;
-	text-align: center;
-	line-height: 40px;
-}
-
+ Tudo dentro do formulário. Inluindo filhos > filhos
 */
 
-form{
-	text-align: center;
-	background-color: #ccc;
-	padding: 30px 0;
+form *{
+	font-family: "Open Sans";
 }
+
+
+
 /*
+Quando utilizamos o important o nível de especificação deixa de existir.
+Quando mais de 1 estão utilizando o important então o nível de especificação volta a contar.
 
-form select{
-	width: 220px;
-	height: 30px;
-	border:0;
-	padding-left:10px;
-	background-image:url('../imagens/css_bg.png');
-	background-size:10px 20px;
-	background-repeat: no-repeat;
-	background-position: 96% 8px;
-	appearance:none;
-	-webkit-appearance:none;
-	-moz-appearance:none;
+.box p{
+	font-family: "Open Sans" !important;
 }
 
-select::-ms-expand{
-	display: none;
+.text{
+	font-family: tahoma !important;
 }
 */
-
-input[type=checkbox]{
-	display: none;
-}
-
-label{
-	display: inline-block;
-	width: 30px;
-	height:30px;
-	background-color:green;
-}
-
-input[type=checkbox]:checked + label{
-	background-color:red;
-}
