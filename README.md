@@ -14,6 +14,7 @@ Objetivo: **praticar e consolidar conceitos de desenvolvimento web.**
 ## 🚀 Demo Online
 Veja os projetos em funcionamento no **GitHub Pages**:  
 > 🔗 [Acesse aqui](https://paulovitorarruda.github.io/front-end-aulas/)
+> 🔗 [Acesse aqui](file:///C:/Users/User/OneDrive/Desktop/GitHub_Front-End/Praticando_Front-End/starbucks_tutorial/index.html)
 
 ---
 
