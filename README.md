@@ -13,7 +13,7 @@ Objetivo: **praticar e consolidar conceitos de desenvolvimento web.**
 
 ## 🚀 Demo Online
 Veja os projetos em funcionamento no **GitHub Pages**:  
-> 🔗 [Acesse aqui](https://paulovitorarruda.github.io/PraticandoFront-End/)
+> 🔗 [Acesse aqui](https://paulovitorarruda.github.io/front-end-aulas/)
 
 ---
 
